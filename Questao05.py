@@ -5,7 +5,7 @@ while x<len(L):
 	if L[x]==p:
     		break
 	x+=1
-if L[x]==p:
+if x < len(L):
 	print("%d achado na posição %d" % (p,x))
 else:
 	print("%d não encontrado" % p)
